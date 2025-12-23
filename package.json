@@ -1,0 +1,26 @@
+{
+  "name": "codeassignment",
+  "version": "1.0.0",
+  "description": "Word add-in for redaction and confidentiality tracking",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --https --port 3000",
+    "start": "npm run dev",
+    "build": "vite build",
+    "preview": "vite preview --host --port 3000"
+  },
+  "dependencies": {
+    "@microsoft/office-js": "^1.1.94",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/office-js": "^1.0.335",
+    "@vitejs/plugin-basic-ssl": "^1.1.2",
+    "@vitejs/plugin-react": "^4.3.2",
+    "typescript": "^5.7.2",
+    "vite": "^5.3.5"
+  }
+}
